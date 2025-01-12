@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wormhole Adventure Hub</title>
 <!-- add icon link -->
-    <link rel="icon" href="D:\gh.webp" type="image/x-icon" />
+    <link rel="icon" href="E:\my new website (wormhole)/gh.jpeg" type="img/x-icon" />
 
-    <style>
+         <style>
+  
         body {
             margin: 0;
             padding: 0;
@@ -47,6 +48,100 @@
             padding: 50px 20px;
             background: radial-gradient(circle, #0f0f1a, #1a1a2e, #000000);
         }
+ {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, black, #0f0f2b);
+}
+
+form {
+  position: relative;
+  top: 7%;
+  left: 94%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  color: #07051a;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+form:focus-within,
+form:hover,
+form:valid{
+  width: 200px;
+  cursor: pointer;
+}
+
+form:hover input,
+form:focus-within input,
+form:valid input {
+  width: 100%;
+} 
+
+form:hover .fa,
+form:focus-within .fa,
+form:valid .fa {
+  background: #07051a;
+  color: white;
+}
+
+button {
+  display: none;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+  padding: 4px;
+  min-height: max-content;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+form:valid button {
+  display: block;
+}
 
         header h1 {
             font-size: 4em;
@@ -123,6 +218,7 @@
 <body>
     <nav>
         <div><p align="center">Wormhole Adventure Hub</p></div><hr>
+              
 
         <div>
             <a href="https://en.wikipedia.org/wiki/Wormhole">About</a>
@@ -133,7 +229,25 @@
     </nav>
 
     <header>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<h1>Welcome to the Wormhole Adventure Hub</h1>
+<hr>
+        <p>Explore the uncharted territories of the cosmos, discover the science behind wormholes, and fuel your curiosity about the universe.</p>
+<br>
+<form action="">
+  <input type="search" autofocus required>
+  <i class="fa fa-search"></i>
+  <button onclick="clearInput()">Clear</a>
+</form>
+
         <h1>Welcome to the Wormhole Adventure Hub</h1>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<form action="">
+  <input type="search" autofocus required>
+  <i class="fa fa-search"></i>
+  <button onclick="clearInput()">Clear</a>
+</form>
 <hr>
         <p>Explore the uncharted territories of the cosmos, discover the science behind wormholes, and fuel your curiosity about the universe.</p>
     </header>
@@ -143,12 +257,12 @@
     <div class="content" href="https://en.wikipedia.org/wiki/Wormhole">
         <section id="about" class="section">
             <div class="card" href="https://en.wikipedia.org/wiki/Wormhole">
-                <img src="D:/my web/st.webp" alt="What is a Wormhole">
+                <img src="D:/my new website (Wormhole)/st.webp" alt="What is a Wormhole">
                 <h2>What is a Wormhole?</h2>
                 <p>Wormholes are theoretical space-time tunnels connecting distant universe parts.</p>
             </div>
             <div class="card">
-                <img src="D:/my web/gj.webp" alt="The Science">
+                <img src="D:/my new website (Wormhole)/gj.webp" alt="The Science">
                 <h2>The Science</h2>
                 <p>Explore Einstein's theory of general relativity and its implications for wormhole physics.</p>
             </div>
@@ -156,12 +270,12 @@
 
         <section id="science" class="section">
             <div class="card">
-                <img src="D:/my web/nm.webp" alt="Astrophysics">
+                <img src="D:/my new website (Wormhole)/nm.webp" alt="Astrophysics">
                 <h2>Astrophysics</h2>
                 <p>Delve into the complex calculations and simulations used to model wormholes.</p>
             </div>
             <div class="card">
-                <img src="D:/my web/gh.png" alt="Challenges">
+                <img src="D:/my new website (Wormhole)/gh.png" alt="Challenges">
                 <h2>Challenges</h2>
                 <p>Learn about the technological and theoretical hurdles that make wormhole travel a distant dream.</p>
             </div>
@@ -169,7 +283,7 @@
 
         <section id="exploration" class="section">
             <div class="card">
-                <img src="D:/my web/gh.jpg" alt="Cosmic Exploration">
+                <img src="D:/my new website (Wormhole)/gh.jpg" alt="Cosmic Exploration">
                 <h2>Cosmic Exploration</h2>
                 <p>See how wormhole concepts are inspiring space exploration and future missions.</p>
             </div>
@@ -224,7 +338,7 @@
         }
 
 </style>
-<a href="#wormhole" class="btn">Contact Us</a>
+<a href="my html.html" class="btn">Contact Us</a>
 <br>
 <style>
  /* Button style for navigation or interactive content */
@@ -242,9 +356,6 @@
 
 </style>
 <a href="https://en.wikipedia.org/wiki/Wormhole" class="btn">About</a>
-
-
-<header>
     <footer>
         <p>&copy; 2025 Wormhole Adventure Hub | Designed for cosmic explorers.</p>
     </footer>
